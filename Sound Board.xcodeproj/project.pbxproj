@@ -13,6 +13,7 @@
 		035C51821E46D4EC0063BB45 /* Sound_Board.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 035C51801E46D4EC0063BB45 /* Sound_Board.xcdatamodeld */; };
 		035C51841E46D4EC0063BB45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035C51831E46D4EC0063BB45 /* Assets.xcassets */; };
 		035C51871E46D4EC0063BB45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035C51851E46D4EC0063BB45 /* LaunchScreen.storyboard */; };
+		035CAACA1E46E02400B11123 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035CAAC91E46E02400B11123 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		035C51831E46D4EC0063BB45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		035C51861E46D4EC0063BB45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		035C51881E46D4EC0063BB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035CAAC91E46E02400B11123 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				035C51791E46D4EC0063BB45 /* AppDelegate.swift */,
 				035C517B1E46D4EC0063BB45 /* ViewController.swift */,
+				035CAAC91E46E02400B11123 /* SoundViewController.swift */,
 				035C517D1E46D4EC0063BB45 /* Main.storyboard */,
 				035C51831E46D4EC0063BB45 /* Assets.xcassets */,
 				035C51851E46D4EC0063BB45 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035CAACA1E46E02400B11123 /* SoundViewController.swift in Sources */,
 				035C51821E46D4EC0063BB45 /* Sound_Board.xcdatamodeld in Sources */,
 				035C517C1E46D4EC0063BB45 /* ViewController.swift in Sources */,
 				035C517A1E46D4EC0063BB45 /* AppDelegate.swift in Sources */,
@@ -306,6 +310,7 @@
 				035C518D1E46D4EC0063BB45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
